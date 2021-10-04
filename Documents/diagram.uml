@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="330.0" y="431.0">ch.zhaw.pm2.multichat.client.ClientConnectionHandler</node>
+    <node x="0.0" y="0.0">ch.zhaw.pm2.multichat.client.ChatWindowController</node>
+    <node x="0.0" y="734.0">ch.zhaw.pm2.multichat.server.Server</node>
+    <node x="571.0" y="475.0">ch.zhaw.pm2.multichat.server.ServerConnectionHandler</node>
+    <node x="992.0" y="734.0">ch.zhaw.pm2.multichat.protocol.Config</node>
+    <node x="220.0" y="1028.0">ch.zhaw.pm2.multichat.client.Client</node>
+    <node x="398.0" y="734.0">ch.zhaw.pm2.multichat.protocol.Data</node>
+    <node x="0.0" y="1028.0">ch.zhaw.pm2.multichat.client.ClientUI</node>
+    <node x="410.0" y="1028.0">ch.zhaw.pm2.multichat.protocol.ChatProtocolException</node>
+    <node x="591.0" y="734.0">ch.zhaw.pm2.multichat.protocol.NetworkHandler</node>
+    <node x="462.25" y="0.0">ch.zhaw.pm2.multichat.protocol.ConnectionHandler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ch.zhaw.pm2.multichat.client.ClientConnectionHandler" target="ch.zhaw.pm2.multichat.protocol.ConnectionHandler">
+      <point x="0.0" y="-113.5" />
+      <point x="440.5" y="406.0" />
+      <point x="532.75" y="406.0" />
+      <point x="-70.5" y="190.5" />
+    </edge>
+    <edge source="ch.zhaw.pm2.multichat.server.ServerConnectionHandler" target="ch.zhaw.pm2.multichat.protocol.ConnectionHandler">
+      <point x="0.0" y="-69.5" />
+      <point x="766.0" y="406.0" />
+      <point x="673.75" y="406.0" />
+      <point x="70.5" y="190.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="867.1111111111112" y="652.4444444444445" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
